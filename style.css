@@ -1,0 +1,81 @@
+body{
+background-color: black;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+  
+}
+/*Header by Roy Nwakamma and Obinna Chijioke  */
+.header{
+width: 100%;
+height: 10vh;
+background-color: aqua;
+}
+/*section one by John Ilozor and Joann Otaru  */
+.one{
+    width: 100%;
+    height: 38vh;
+    background-color: blueviolet;
+    /* background-image: url("images/bg-tablet-pattern.svg"); */
+    background-repeat: repeat;
+}
+/* section two by Innocent Chukwuemeka and MacNelson */
+.two{
+width: 100%;
+height: 50vh;
+background-color: blue;
+}
+/* section three by ThankGod Obiekwe and Samuel Arikpo */
+.three{
+width: 100%;
+height: 40vh;
+background-color: brown;
+}
+/* section four by Anthonia Agbulu and Merit Okafor */
+.four{
+width: 100%;
+height: 15vh;
+background-color: orangered;
+}
+/* footer by Chinemerem and Babatunde */
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+
+@media  screen and (max-width: 600px) {
+  
+   .container {
+width: 100%;
+
+    }
+    /* Header by Roy Nwakamma and Obinna Chijioke */
+.header{
+
+}
+/*section one by John Ilozor and Joann Otaru  */
+.one{
+
+}
+/* section two by Innocent Chukwuemeka and MacNelson */
+.two{
+
+}
+/* section three by ThankGod Obiekwe and Samuel Arikpo */
+.three{
+
+}
+/* section four by Anthonia Agbulu and Merit Okafor */
+.four{
+
+}
+/* footer by Chinemerem and Babatunde */
+.footer{
+
+}
+
+}
