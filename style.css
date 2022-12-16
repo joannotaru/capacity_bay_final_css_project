@@ -11,8 +11,44 @@ background-color: black;
 /*Header by Roy Nwakamma and Obinna Chijioke  */
 .header{
 width: 100%;
-height: 10vh;
-background-color: aqua;
+height: 15vh;
+background-color: white;
+}
+.header >.insideheader {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navhead {
+    width: 30%;
+    display: flex;
+    margin-top: 41px;
+    justify-content: space-between;
+    font-size: 0.72rem;
+    color: rgb(23, 23, 59);
+}
+.insideheader >div>img {
+    width: 100px;
+    height: 20px;
+    margin-top: 40px;
+}
+.getbutton{
+    width: 10%;
+    height: 6vh;
+    margin-top: 30px;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: #f3613c;
+    font-size: 0.7rem;
+    color: white;
+    box-shadow: 10px 10px white;
+}
+.getbutton:hover{
+    opacity: .6;
+}
+.each:hover{
+    opacity: .5;
 }
 /*section one by John Ilozor and Joann Otaru  */
 .one{
