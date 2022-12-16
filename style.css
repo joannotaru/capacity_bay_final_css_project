@@ -96,7 +96,7 @@ p{
     line-height: 1.5;
 }
 
-/* .btn{
+.btn{
     display: flex;
     margin: 4em;
     justify-content: center;
@@ -107,11 +107,13 @@ p{
     width: 120px;
     height: 40px;
     border: none;
-    border-radius: 40px;
-    padding: 10px 20px;
-    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: lightgray;
 }
 .btn button:hover{
+    color: gray;
+    transition: 0.3s ease-out;
     cursor: pointer;
 } */
 /* section four by Anthonia Agbulu and Merit Okafor */
@@ -156,6 +158,9 @@ width: 100%;
 .cmnt p{
     
     padding: 15px;
+}
+.btn{
+    margin-top: 20px;
 }
 /* section four by Anthonia Agbulu and Merit Okafor */
 .four{
