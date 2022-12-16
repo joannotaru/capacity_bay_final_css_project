@@ -24,10 +24,15 @@ background-color: aqua;
 }
 /* section two by Innocent Chukwuemeka and MacNelson */
 .two{
-width: 100%;
-height: 50vh;
-background-color: blue;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    /* background-color: blue; */
 }
+
+/* by Innocent Chukwuemeka */
 .heading{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(10, 10, 61);
@@ -46,9 +51,84 @@ background-color: blue;
 }
 .two-1{
     text-align: justify;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-left: 30px;
+    /* background-color: black; */
+    width: 50%;
+    height: 50vh;
     
+}
+
+/* by MacNelson */
+.two .right {
+    /* background-color: blue; */
+    width: 50%;
+    height: 50vh;
+    padding-left: 100px;
+}
+
+.two .right-items {
+    width: 100%;
+    /* background-color: green; */
+    height: 50vh;
+}
+
+.two .right-items .top,
+.center,
+.bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+/* background-color: pink; */
+}
+
+
+.two .right-items .text {
+/* background-color: pink; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.two .upp {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.two .upp h4 {
+    margin-left: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.two .right-items .num {
+    background-color: orangered;
+    height: 4vh;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    width: 9%;
+    border-radius: 30px;
+}
+
+.two .text p {
+    margin-top: -5px;
+    margin-left: 65px;
+    max-width: 300px;
+    height: 11vh;
+    font-size: 13px;
+    line-height: 20px;
+    color: gray;
+    /* background-color: black; */
 }
 @media screen and (max-width: 500px){
     .two-1, .heading, .text{
@@ -142,9 +222,67 @@ width: 100%;
 
 }
 /* section two by Innocent Chukwuemeka and MacNelson */
-.two{
 
+/* MacNelson */
+.two{
+    margin: 0%;
+    height: 70vh;
+    width: 100%;
+    /* background-color: aliceblue; */
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
 }
+
+.two .right {
+    background-color: green;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.two .right-items {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 100%;
+}
+.two .upp h4{
+  font-size: 18px;
+}
+.two .upp {
+    width: 97%;
+    display: flex;
+    padding-left: 10px;
+    height: 3vh;
+    background-color: rgb(255, 230, 221);
+}
+
+.two .text {
+    margin-top: 12px;
+    /* background-color: yellow; */
+    width: 95%;
+display: flex;
+margin-left: 25px;
+justify-content: center;
+align-items: center;
+}
+
+.two .text p {
+    line-height: 20px;
+    /* background-color: gray; */
+    max-width: 140%;
+    font-size: 16px;
+}
+
+.two .right-items .num {
+    width: 15%;
+    font-size: 15px;
+    height: 4vh;
+}
+
+
 /* section three by ThankGod Obiekwe and Samuel Arikpo */
 .three{
     width: 100%;
