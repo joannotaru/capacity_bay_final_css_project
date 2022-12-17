@@ -33,6 +33,9 @@ background-color: white;
     height: 20px;
     margin-top: 40px;
 }
+.menu{
+    display: none;
+}
 .getbutton{
     width: 10%;
     height: 6vh;
@@ -87,6 +90,18 @@ background-color: blue;
     
 }
 @media screen and (max-width: 500px){
+
+    /* Header by Roy Nwakamma and Chijioke Obinna */
+    .menu{
+        display: flex;
+        align-items: center;
+        padding-top: 17px;
+     }
+     .navhead, .getbutton{
+         display: none;
+     }
+
+
     .two-1, .heading, .text{
         width: 100%;
     }
