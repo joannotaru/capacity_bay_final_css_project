@@ -56,11 +56,47 @@ background-color: white;
 /*section one by John Ilozor and Joann Otaru  */
 .one{
     width: 100%;
-    height: 38vh;
-    background-color: blueviolet;
-    /* background-image: url("images/bg-tablet-pattern.svg"); */
+    height: 50vh;
+    background-color: #f0f5f7;
+    background-image: url("images/bg-tablet-pattern.svg");
     background-repeat: repeat;
+    display:flex;
+    justify-content: space-evenly;
+    /* Joan you can modify the above section to accommodate the image */
 }
+.section-1{
+     margin-left: 30px; 
+} 
+
+.section-1 h2{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.section-1 p{
+    margin-top: 20px; 
+}
+.start1{
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-right: 410px;
+    background-color: #f3613c; 
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 20%;
+}
+.start1:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+/* Joan Add you CSS on section below */
+.sectionone-img1{
+    transform: scale(2.5);
+    margin-top: 180px;
+} 
+
 /* section two by Innocent Chukwuemeka and MacNelson */
 .two{
     width: 100%;
@@ -272,6 +308,44 @@ width: 100%;
 }
 /*section one by John Ilozor and Joann Otaru  */
 .one{
+    width: 100%;
+    height: auto;
+    background-color: #f0f5f7;
+    background-image: url("images/bg-tablet-pattern.svg");
+    background-repeat: repeat;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+}
+
+.sectionone h2{
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.sectionone p{
+    margin-left: 15px;
+    font-size: 10px; 
+}
+.start1{
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 12px;
+    color: whitesmoke;
+    margin-right: 10px;
+    background-color: #f3613c; 
+    margin-left: 20px;
+    width: 20%;
+}
+.start1:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.sectionone-img1{
+    transform: scale(1.2);
+   
+} 
 
 }
 /* section two by Innocent Chukwuemeka and MacNelson */
@@ -360,4 +434,3 @@ align-items: center;
 
 }
 
-}
