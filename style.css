@@ -120,7 +120,7 @@ background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
      max-width: 250px;
-     font-size: smaller;
+     font-size: 14px;
      display: flex;
 
 }
@@ -154,6 +154,7 @@ background-color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 20px;
 /* background-color: pink; */
 }
 
@@ -362,7 +363,7 @@ width: 100%;
 }
 
 .two .right {
-    background-color: green;
+    /* background-color: green; */
     padding: 0%;
     width: 100%;
     display: flex;
