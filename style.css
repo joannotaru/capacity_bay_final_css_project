@@ -185,8 +185,15 @@ width: 100%;
 
     }
     /* Header by Roy Nwakamma and Obinna Chijioke */
-.header{
 
+    .menu{
+        display: flex;
+        align-items: center;
+        padding-top: 17px;
+     }
+     .navhead, .getbutton{
+         display: none;
+     }
 }
 /*section one by John Ilozor and Joann Otaru  */
 .one{
