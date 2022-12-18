@@ -518,7 +518,7 @@ align-items: center;
     padding: 15px;
 }
 .btn{
-    margin-top: 20px;
+    margin-top: 20px;gi
 
 }
 /* section four by Anthonia Agbulu and Merit Okafor */
@@ -526,17 +526,4 @@ align-items: center;
 
 }
 /* footer by Chinemerem and Babatunde */
-.grid-item-3 {
-    grid-column: 1 / 4;
-    grid-row: 1;
-    text-align: center;
-}
-.grid-item-1 {
-    grid-column: span 4;
-    text-align: center;
-}
-.grid-item-2 {
-    grid-column: 1 / 4;
-    grid-row: 2;
-}    
 
