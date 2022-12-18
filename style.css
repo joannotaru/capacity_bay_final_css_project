@@ -1,25 +1,29 @@
-body{
-background-color: black;
+body {
+    background-color: black;
 
 }
-.container{
+
+.container {
     width: 90%;
     margin: auto;
     background-color: white;
-  
+
 }
+
 /*Header by Roy Nwakamma and Obinna Chijioke  */
-.header{
-width: 100%;
-height: 15vh;
-background-color: white;
+.header {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
 }
-.header >.insideheader {
+
+.header>.insideheader {
     width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
+
 .navhead {
     width: 30%;
     display: flex;
@@ -28,15 +32,18 @@ background-color: white;
     font-size: 0.72rem;
     color: rgb(23, 23, 59);
 }
-.insideheader >div>img {
+
+.insideheader>div>img {
     width: 100px;
     height: 20px;
     margin-top: 40px;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.getbutton{
+
+.getbutton {
     width: 10%;
     height: 6vh;
     margin-top: 30px;
@@ -47,58 +54,66 @@ background-color: white;
     color: white;
     box-shadow: 10px 10px white;
 }
-.getbutton:hover{
+
+.getbutton:hover {
     opacity: .6;
 }
-.each:hover{
+
+.each:hover {
     opacity: .5;
 }
+
 /*section one by John Ilozor and Joann Otaru  */
-.one{
+.one {
     width: 100%;
     height: 50vh;
     background-color: #f0f5f7;
     background-image: url("images/bg-tablet-pattern.svg");
     background-repeat: repeat;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     /* Joan you can modify the above section to accommodate the image */
 }
-.section-1{
-     margin-left: 30px; 
-} 
 
-.section-1 h2{
+.section-1 {
+    margin-left: 30px;
+}
+
+.section-1 h2 {
     font-size: 30px;
     margin-top: 40px;
 }
-.section-1 p{
-    margin-top: 20px; 
+
+.section-1 p {
+    margin-top: 20px;
 }
-.start1{
+
+.start1 {
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 18px;
     color: whitesmoke;
     margin-right: 410px;
-    background-color: #f3613c; 
+    background-color: #f3613c;
     margin-left: 80px;
     margin-top: 20px;
     width: 20%;
 }
-.start1:hover{
+
+.start1:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
+
 /* Joan Add you CSS on section below */
-.sectionone-img1{
+.sectionone-img1 {
     transform: scale(2.5);
     margin-top: 180px;
-} 
+}
 
 /* section two by Innocent Chukwuemeka and MacNelson */
-.two{
+.two {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -108,30 +123,31 @@ background-color: white;
 }
 
 /* by Innocent Chukwuemeka */
-.heading{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(10, 10, 61);
     max-width: 250px;
     display: flex;
 }
 
-.text{
+.text {
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-     max-width: 250px;
-     font-size: 14px;
-     display: flex;
+    max-width: 250px;
+    font-size: 14px;
+    display: flex;
 
 }
-.two-1{
+
+.two-1 {
     text-align: justify;
     /* margin-top: 200px; */
     margin-left: 30px;
     /* background-color: black; */
     width: 50%;
     height: 50vh;
-    
+
 }
 
 /* by MacNelson */
@@ -155,12 +171,12 @@ background-color: white;
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
-/* background-color: pink; */
+    /* background-color: pink; */
 }
 
 
 .two .right-items .text {
-/* background-color: pink; */
+    /* background-color: pink; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -206,56 +222,95 @@ background-color: white;
     color: gray;
     /* background-color: black; */
 }
-@media screen and (max-width: 500px){
+/* section four by Anthonia Agbulu and Merit Okafor */
+.four {
+    width: 90%;
+   height: 15vh;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.four1 {
+    color: white;
+    width: 55%;
+    /* background-color: black; */
+    font-size: 30px;
+    text-align: left;
+}
+
+.four2 {
+    color: #ffa500;
+    width: 100px;
+    height: 25px;
+    /* padding: 5px; */
+    border: 0;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.four2 button:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+@media screen and (max-width: 500px) {
 
     /* Header by Roy Nwakamma and Chijioke Obinna */
-    .menu{
+    .menu {
         display: flex;
         align-items: center;
         padding-top: 17px;
-     }
-     .navhead, .getbutton{
-         display: none;
-     }
+    }
+
+    .navhead,
+    .getbutton {
+        display: none;
+    }
 
 
-    .two-1, .heading, .text{
+    .two-1,
+    .heading,
+    .text {
         width: 100%;
     }
 }
+
 /* section three by ThankGod Obiekwe and Samuel Arikpo */
-.three{
-width: 100%;
-height: 95vh;
-/* background-color: brown; */
+.three {
+    width: 100%;
+    height: 95vh;
+    /* background-color: brown; */
 }
 
-.what{
+.what {
     font-family: poppins;
     padding: 1em;
     text-align: center;
     font-size: 20px;
 }
 
-.cmnt{
+.cmnt {
     text-align: center;
     display: flex;
     justify-content: space-around;
 }
 
-img{
+img {
     width: 80px;
     height: 80px;
 }
 
-.cmnt h2{
+.cmnt h2 {
     font-family: poppins;
     color: black;
     font-size: 18px;
     padding: 10px;
 }
 
-p{
+p {
     width: 365px;
     height: 80px;
     font-family: poppins;
@@ -264,13 +319,13 @@ p{
     line-height: 1.5;
 }
 
-.btn{
+.btn {
     display: flex;
     margin: 4em;
     justify-content: center;
 }
 
-.btn button{
+.btn button {
     background-color: orangered;
     width: 120px;
     height: 40px;
@@ -279,19 +334,17 @@ p{
     padding: 10px;
     color: lightgray;
 }
-.btn button:hover{
+
+.btn button:hover {
     color: gray;
     transition: 0.3s ease-out;
     cursor: pointer;
-} */
-/* section four by Anthonia Agbulu and Merit Okafor */
-.four{
-width: 100%;
-height: 15vh;
-background-color: orangered;
 }
+
+
+
 /* footer by Chinemerem and Babatunde */
-.footer{
+.footer {
     width: 100%;
     height: 20vh;
     background-color: black;
@@ -299,7 +352,7 @@ background-color: orangered;
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     background-color: rgb(19, 24, 31);
 }
 
@@ -310,12 +363,13 @@ background-color: orangered;
 .flex {
     display: flex;
 }
+
 .flex-item {
     height: 100%;
     width: 100%;
 }
 
-.grid-items ul li{
+.grid-items ul li {
     list-style: none;
     margin: 15px auto;
     color: white;
@@ -323,31 +377,31 @@ background-color: orangered;
     justify-content: center;
 }
 
-.grid-items ul li:hover{
-    color:  #f3613c;
+.grid-items ul li:hover {
+    color: #f3613c;
 }
 
-.grid-item-1 img{
+.grid-item-1 img {
     margin: 15px auto;
     padding: 10px;
 }
 
-.grid-item-3 button{
-border-radius: 15px;
-border: none;
-background-color: rgb(211, 83, 9);
-padding-right: 10px;
-padding-left: 10px;
-height: 40px;
-color: white;
-cursor: pointer;
+.grid-item-3 button {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(211, 83, 9);
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
 }
 
-.grid-item-3  button:hover{
-    background-color:  #f8c0b2;
+.grid-item-3 button:hover {
+    background-color: #f8c0b2;
 }
 
-input{
+input {
     margin: 15px auto;
     border-radius: 20px;
     height: 35px;
@@ -356,62 +410,67 @@ input{
     outline: none;
 }
 
-@media  screen and (max-width: 600px) {
-  
-   .container {
-width: 100%;
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 100%;
 
     }
+
     /* Header by Roy Nwakamma and Obinna Chijioke */
-.header{
+    .header {}
+
+    /*section one by John Ilozor and Joann Otaru  */
+    .one {
+        width: 100%;
+        height: auto;
+        background-color: #f0f5f7;
+        background-image: url("images/bg-tablet-pattern.svg");
+        background-repeat: repeat;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .sectionone h2 {
+        font-size: 10px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+
+    .sectionone p {
+        margin-left: 15px;
+        font-size: 10px;
+    }
+
+    .start1 {
+        box-sizing: border-box;
+        border-radius: 2px;
+        font-size: 12px;
+        color: whitesmoke;
+        margin-right: 10px;
+        background-color: #f3613c;
+        margin-left: 20px;
+        width: 20%;
+    }
+
+    .start1:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .sectionone-img1 {
+        transform: scale(1.2);
+
+    }
 
 }
-/*section one by John Ilozor and Joann Otaru  */
-.one{
-    width: 100%;
-    height: auto;
-    background-color: #f0f5f7;
-    background-image: url("images/bg-tablet-pattern.svg");
-    background-repeat: repeat;
-    display:flex;
-    flex-direction:column-reverse;
-    justify-content: center;
-}
 
-.sectionone h2{
-    font-size: 10px;
-    margin-left: 40px;
-    margin-top: 80px;
-}
-.sectionone p{
-    margin-left: 15px;
-    font-size: 10px; 
-}
-.start1{
-    box-sizing: border-box;
-    border-radius: 2px;
-    font-size: 12px;
-    color: whitesmoke;
-    margin-right: 10px;
-    background-color: #f3613c; 
-    margin-left: 20px;
-    width: 20%;
-}
-.start1:hover{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-.sectionone-img1{
-    transform: scale(1.2);
-   
-} 
-
-}
 /* section two by Innocent Chukwuemeka and MacNelson */
 
 /* MacNelson */
-.two{
+.two {
     margin: 0%;
     height: 70vh;
     width: 100%;
@@ -435,9 +494,11 @@ width: 100%;
     /* background-color: blue; */
     width: 100%;
 }
-.two .upp h4{
-  font-size: 18px;
+
+.two .upp h4 {
+    font-size: 18px;
 }
+
 .two .upp {
     width: 97%;
     display: flex;
@@ -450,10 +511,10 @@ width: 100%;
     margin-top: 12px;
     /* background-color: yellow; */
     width: 95%;
-display: flex;
-margin-left: 25px;
-justify-content: center;
-align-items: center;
+    display: flex;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .two .text p {
@@ -471,36 +532,50 @@ align-items: center;
 
 
 /* section three by ThankGod Obiekwe and Samuel Arikpo */
-.three{
+.three {
     width: 100%;
     height: 70vh;
 }
-.what{
+
+.what {
     font-size: 18px;
 }
-.cmnt p{
-    
+
+.cmnt p {
+
     padding: 15px;
 }
-.btn{
+
+.btn {
     margin-top: 20px;
 }
+
 /* section four by Anthonia Agbulu and Merit Okafor */
-.four{
+.four {
+
+    width: 90%;
+    height: 30vh;
+    font-size: 20px;
+    margin: auto;
+    background-color: orangered;
+    align-items: center;
+}
 
 }
+
 /* footer by Chinemerem and Babatunde */
 .grid-item-3 {
     grid-column: 1 / 4;
     grid-row: 1;
     text-align: center;
 }
+
 .grid-item-1 {
     grid-column: span 4;
     text-align: center;
 }
+
 .grid-item-2 {
     grid-column: 1 / 4;
     grid-row: 2;
-}    
-
+}
