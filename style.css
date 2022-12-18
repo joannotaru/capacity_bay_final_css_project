@@ -346,66 +346,98 @@ p {
 }
 
 
-
 /* footer by Chinemerem and Babatunde */
-.footer {
-    width: 100%;
-    height: 20vh;
-    background-color: black;
+.footer{
+    width: 90%;
+    background-color: rgb(19, 24, 31);
+    margin:  auto;
+    padding: 10px 0;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(19, 24, 31);
-}
-
-.grid-items {
-    /* border: 3px solid black; */
-}
-
-.flex {
     display: flex;
+    flex-direction: row;
+    background-color: rgb(19, 24, 31);
+    justify-content: space-between;
+    margin: 1em 3em 0 3em;
+    height: auto;
+   
 }
 
-.flex-item {
-    height: 100%;
-    width: 100%;
-}
-
-.grid-items ul li {
+.grid-items ul{
+    text-decoration: none;
     list-style: none;
-    margin: 15px auto;
+    color: white;
+}
+
+.grid-items i{
+    color: white;
+}
+
+.grid-item-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 17vh;
+    text-align: center;
+    align-items: center;
+}
+
+li:hover,i:hover{
+    color: #f3613c;
+}
+
+.grid-items ul li{
+    list-style: none;
+    margin: 9px auto;
     color: white;
     cursor: pointer;
     justify-content: center;
 }
 
-.grid-items ul li:hover {
-    color: #f3613c;
+.grid-itemsli{
+   
+    font-size: 13px;
 }
 
-.grid-item-1 img {
+.grid-item-1 img{
     margin: 15px auto;
     padding: 10px;
+    height: 4vh;
+    width: 35%;
 }
 
-.grid-item-3 button {
-    border-radius: 15px;
-    border: none;
-    background-color: rgb(211, 83, 9);
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 40px;
+.grid-item-3{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+} 
+
+.legal{
     color: white;
-    cursor: pointer;
+    text-align: center;
+    height: 3vh;
+    margin-top: 1.5rem;
+    font-size: 11px;
 }
 
-.grid-item-3 button:hover {
-    background-color: #f8c0b2;
+.grid-item-3 button{
+border-radius: 15px;
+border: none;
+background-color: rgb(211, 83, 9);
+padding-right: 10px;
+padding-left: 10px;
+height: 40px;
+color: white;
+cursor: pointer;
 }
 
-input {
+.grid-item-3  button:hover{
+    background-color:  #f8c0b2;
+}
+
+input{
     margin: 15px auto;
     border-radius: 20px;
     height: 35px;
@@ -413,6 +445,7 @@ input {
     padding-right: 15px;
     outline: none;
 }
+
 
 @media screen and (max-width: 600px) {
 
