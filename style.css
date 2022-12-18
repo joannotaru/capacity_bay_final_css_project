@@ -309,13 +309,13 @@ background-color: orangered;
    
 }
 
-ul{
+.grid-items ul{
     text-decoration: none;
     list-style: none;
     color: white;
 }
 
-i{
+.grid-items i{
     color: white;
 }
 
@@ -335,14 +335,14 @@ li:hover,i:hover{
 
 .grid-items ul li{
     list-style: none;
-    margin: 15px auto;
+    margin: 9px auto;
     color: white;
     cursor: pointer;
     justify-content: center;
 }
 
-li{
-    line-height: 25px;
+.grid-itemsli{
+   
     font-size: 13px;
 }
 
