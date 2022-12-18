@@ -64,52 +64,56 @@ body {
 }
 
 /*section one by John Ilozor and Joann Otaru  */
-.one {
+     .one {
     width: 100%;
-    height: 50vh;
+    height: 42vh;
     background-color: #f0f5f7;
     background-image: url("images/bg-tablet-pattern.svg");
-    background-repeat: repeat;
-    display: flex;
-    justify-content: space-evenly;
-    /* Joan you can modify the above section to accommodate the image */
-}
+    background-repeat: no-repeat;
+    background-position:right;
+    display:flex;
+    justify-content: space-around;
+ }
 
-.section-1 {
-    margin-left: 30px;
-}
-
-.section-1 h2 {
+.sectionone h2{
     font-size: 30px;
-    margin-top: 40px;
+    margin-left: 20px;
+    margin-top: 80px;
+    padding-left: 30px;
+}
+.sectionone p{
+    margin-left: 20px; 
+    margin-top: 20px; 
+    padding-left: 30px;
 }
 
-.section-1 p {
-    margin-top: 20px;
-}
+.sectionone-img1 {
+    transform: scale(4.5);
+    margin-top: 180px;
+    padding-top: 50px;
+    padding-right: 100px;
 
-.start1 {
+} 
+
+.start1{
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 1rem;
     font-size: 18px;
     color: whitesmoke;
     margin-right: 410px;
-    background-color: #f3613c;
+    background-color: #f3613c; 
     margin-left: 80px;
     margin-top: 20px;
-    width: 20%;
+    width:20%;
+    height: 6vh;
+    text-align: center;
+    padding-top: 15px;
+    
 }
-
-.start1:hover {
+.start1:hover{
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
-}
-
-/* Joan Add you CSS on section below */
-.sectionone-img1 {
-    transform: scale(2.5);
-    margin-top: 180px;
 }
 
 /* section two by Innocent Chukwuemeka and MacNelson */
@@ -423,46 +427,60 @@ input {
     /*section one by John Ilozor and Joann Otaru  */
     .one {
         width: 100%;
-        height: auto;
+        height: 60vh;
         background-color: #f0f5f7;
         background-image: url("images/bg-tablet-pattern.svg");
-        background-repeat: repeat;
-        display: flex;
+        background-repeat: no-repeat;
+        background-position:right;
+        display:flex;
         flex-direction: column-reverse;
-        justify-content: center;
-    }
+     }
 
-    .sectionone h2 {
-        font-size: 10px;
-        margin-left: 40px;
-        margin-top: 80px;
+     .sectionone h2{
+        font-size: 20px;
+        margin-left: 60px;
     }
-
-    .sectionone p {
-        margin-left: 15px;
-        font-size: 10px;
+    .sectionone p{
+        margin-left: 60px; 
     }
-
-    .start1 {
+    
+    .sectionone-img1 {
+        transform: scale(1.5);
+        margin-top: 10px;
+        padding-top: 40px;
+        padding-left: 100px; 
+        margin-left: 50px;
+    
+    } 
+    
+    .start1{
         box-sizing: border-box;
-        border-radius: 2px;
-        font-size: 12px;
+        border-radius: 0.5rem;
+        font-size: 15px;
         color: whitesmoke;
-        margin-right: 10px;
-        background-color: #f3613c;
-        margin-left: 20px;
-        width: 20%;
+        /* margin-right: 100px; */
+        background-color: #f3613c; 
+        margin-left: 150px;
+        width:20%;
+        height: 4vh;
+        text-align: center;
+        padding-bottom: 20px;
+        
     }
-
-    .start1:hover {
+    .start1:hover{
         -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
     }
-
-    .sectionone-img1 {
-        transform: scale(1.2);
-
+    
+    /* section two by Innocent Chukwuemeka and MacNelson */
+    .two {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        margin: 0%;
+        /* background-color: blue; */
     }
 
 }
