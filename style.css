@@ -526,73 +526,73 @@ input{
         margin: 0%;
         /* background-color: blue; */
     }
-
+    .two {
+        margin: 0%;
+        height: 70vh;
+        width: 100%;
+        /* background-color: aliceblue; */
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .two .right {
+        /* background-color: green; */
+        padding: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .two .right-items {
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+        width: 100%;
+    }
+    
+    .two .upp h4 {
+        font-size: 18px;
+    }
+    
+    .two .upp {
+        width: 97%;
+        display: flex;
+        padding-left: 10px;
+        height: 3vh;
+        background-color: rgb(255, 230, 221);
+    }
+    
+    .two .text {
+        margin-top: 12px;
+        /* background-color: yellow; */
+        width: 95%;
+        display: flex;
+        margin-left: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .two .text p {
+        line-height: 20px;
+        /* background-color: gray; */
+        max-width: 140%;
+        font-size: 16px;
+    }
+    
+    .two .right-items .num {
+        width: 15%;
+        font-size: 15px;
+        height: 4vh;
+    }
+    
+    
 
 }
 
 /* section two by Innocent Chukwuemeka and MacNelson */
 
 /* MacNelson */
-.two {
-    margin: 0%;
-    height: 70vh;
-    width: 100%;
-    /* background-color: aliceblue; */
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-}
-
-.two .right {
-    /* background-color: green; */
-    padding: 0%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.two .right-items {
-    display: flex;
-    flex-direction: column;
-    /* background-color: blue; */
-    width: 100%;
-}
-
-.two .upp h4 {
-    font-size: 18px;
-}
-
-.two .upp {
-    width: 97%;
-    display: flex;
-    padding-left: 10px;
-    height: 3vh;
-    background-color: rgb(255, 230, 221);
-}
-
-.two .text {
-    margin-top: 12px;
-    /* background-color: yellow; */
-    width: 95%;
-    display: flex;
-    margin-left: 25px;
-    justify-content: center;
-    align-items: center;
-}
-
-.two .text p {
-    line-height: 20px;
-    /* background-color: gray; */
-    max-width: 140%;
-    font-size: 16px;
-}
-
-.two .right-items .num {
-    width: 15%;
-    font-size: 15px;
-    height: 4vh;
-}
-
 
 /* section three by ThankGod Obiekwe and Samuel Arikpo */
 .three {
